@@ -17,6 +17,27 @@
   color: #6c757d;
 }
 
+/*Whack-a-mole*/
+.square {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: black;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: auto 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr 1fr;  
+}
+
+.mole {
+  background-image: url('mole.jpg');
+  background-size: cover;
+}
 
 h1,
 h2,

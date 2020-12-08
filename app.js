@@ -42,6 +42,7 @@ function countDown() {
     if(currenTime === 0) {
         clearInterval(timerId)
         alert('GAME OVER! Tu puntaje final es de ' + result)
+        return;
     }
 }
 

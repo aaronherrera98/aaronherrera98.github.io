@@ -33,11 +33,12 @@ function moveMole() {
     let timerId = nulltimerId = setInterval(randomSquare, 1000)
 }
 
-moveMole()
+
 
 function countDown() {
     currenTime--
     timeLeft.textContent = currenTime
+    moveMole()
 
     if(currenTime === 0) {
         clearInterval(timerId)
